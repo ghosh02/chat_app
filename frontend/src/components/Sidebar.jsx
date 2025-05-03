@@ -93,7 +93,8 @@
 import React, { useEffect, useState } from "react";
 import { useChatStore } from "../store/useChatStore";
 import { useAuthStore } from "../store/useAuthStore";
-import SidebarSkeleton from "./skeleton/SidebarSkeleton";
+import SidebarSkeleton from "./skeleton/SideBarSkeleton";
+
 import { Users } from "lucide-react";
 
 const Sidebar = () => {
